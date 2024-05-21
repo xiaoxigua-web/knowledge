@@ -1,6 +1,7 @@
 
 import { Tabs } from 'antd';
-import UseEffect from './UseEffect';
+import UseEffect from './UseEffect'
+import UseReducer from './UseReducer.tsx'
 
 const TabsCom = () => (
   <Tabs
@@ -10,6 +11,11 @@ const TabsCom = () => (
         label: 'useEffect',
         key: '1',
         children: <UseEffect />,
+      },
+      {
+        label: 'useReducer',
+        key: '2',
+        children: <UseReducer />,
       }
     ]}
   />
