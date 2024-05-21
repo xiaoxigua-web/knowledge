@@ -2,6 +2,7 @@
 import { Tabs } from 'antd';
 import PropsCallback from './PropsCallback';
 import Callback from './Callback';
+import Context from './Context';
 
 const TabsCom = () => (
   <Tabs
@@ -19,9 +20,9 @@ const TabsCom = () => (
         disabled: false,
       },
       {
-        label: 'Tab 3',
+        label: 'Context',
         key: '3',
-        children: 'Tab 3',
+        children: <Context />,
       },
     ]}
   />
