@@ -6,6 +6,7 @@ import UseRef1 from './UseRef1'
 import UseRef2 from './UseRef2'
 import UseContext from './UseContext'
 import UseMemo from './UseMemo'
+import UseCallback from './UseCallback'
 
 const TabsCom = () => (
   <Tabs
@@ -40,6 +41,11 @@ const TabsCom = () => (
         label: 'UseMemo',
         key: '4',
         children: <UseMemo />,
+      },
+      {
+        label: 'UseCallback',
+        key: '5',
+        children: <UseCallback />,
       }
     ]}
   />
