@@ -10,7 +10,7 @@ function App() {
         组件通信
       <TabsCom />
       </div>
-      <div>
+      <div style={{marginTop:'100px'}}>
         hooks
        <HooksCom />
       </div>

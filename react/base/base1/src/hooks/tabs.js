@@ -5,6 +5,7 @@ import UseReducer from './UseReducer.tsx'
 import UseRef1 from './UseRef1'
 import UseRef2 from './UseRef2'
 import UseContext from './UseContext'
+import UseMemo from './UseMemo'
 
 const TabsCom = () => (
   <Tabs
@@ -34,6 +35,11 @@ const TabsCom = () => (
         label: 'UseRef2',
         key: '31',
         children: <UseRef2 />,
+      },
+      {
+        label: 'UseMemo',
+        key: '4',
+        children: <UseMemo />,
       }
     ]}
   />
